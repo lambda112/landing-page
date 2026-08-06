@@ -1,31 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.section-1, header {
-    background-color: darkorchid;
+/*SECTION 1*/
+.section-1 {
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.hero-content {
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sign-up h1 {
+    font-size: 48px;
+    width: 80%;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+.descriptive-text {
+    color: #E5E7EB;
+    font-size: 18px;
+} 
+
+.sign-up-button {
+    padding:8px 30px;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 6px;
+    border:0 solid white;
+}
+
+.sign-up-image-container {
+    display: flex;
+    flex-flow:column wrap;
+}
+
+
+/*HEADER*/
+header, .hero-content {
+   width: 50%;
 }
 
 header {
+    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: row wrap;
+    justify-content: space-between;
     align-items: baseline;
-    padding: 20px;
 }
 
-header a, header p {
+header a, header p, .sign-up h1, .section-1 a{
     color: #F9FAF8;
 }
 
-header a {
+.nav-element {
     margin-left: 20px;
-    
+    font-size: 18px;
+    text-decoration: none;
 }
 
-header p{
+header p {
     font-size: 24px;
-    font-weight:800;
+    font-weight:900;
 }
