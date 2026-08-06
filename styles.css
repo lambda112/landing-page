@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.section-1 {
+    background-color: darkorchid;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+header a, header p {
+    color: #F9FAF8;
+}
+
+header a {
+    margin-left: 20px;
+    
+}
+
+header p{
+    font-size: 24px;
+    font-weight:800;
+}
