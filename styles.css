@@ -200,3 +200,16 @@ header p {
     padding: 5px 24px;
 }
 
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    padding: 30px 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    color: white;
+}
